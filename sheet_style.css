@@ -1,0 +1,159 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  display:flex;
+  background-color: aliceblue;
+  height: 100vh;
+  justify-content: center;
+  flex-flow: column;
+  align-content: center;
+}
+
+.grid-wrapper {
+  display:flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width:45%;
+  height: 65%;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.row1{
+width:100%;
+height:45%;
+padding:3% 5%;
+background-color: white;
+}
+
+.subscribe{
+  width:50%;
+  height:55%;
+  padding:5%;
+  background-color: hsl(179, 62%, 43%);
+  display:flex;
+  align-items:right;
+  flex-flow: column;
+  align-self:stretch;
+
+}
+
+.whyus{
+  width:50%;
+  height:55%;
+  padding:5%;
+  background-color: #51bebd;
+  display:flex;
+  align-items:right;
+  flex-flow: column;
+  align-self:stretch;
+
+
+}
+
+
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.3em;
+  font-weight: 700;
+  padding-top: 5%;
+  padding-bottom: 4.5%;
+}
+
+ h2 {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: hsl(71, 73%, 54%);
+}
+
+
+ p {
+  font-size: 0.9em;
+  color: hsl(218, 22%, 67%);
+  line-height: 1.5;}
+
+h3 {
+  color: white;
+  font-size: 1.1em;
+  margin-bottom: 3%;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 6%;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cost {
+  font-size: 2.2em;
+  color: white;
+}
+
+.time {
+  color: white;
+  opacity: 0.75;
+  vertical-align: middle;
+
+  }
+
+  .day{
+    margin-top: 4%;
+    margin-bottom: 7%;
+  }
+
+.subscribe > p{
+  color: white;
+}
+
+
+ul {
+  color: white;
+  list-style-type: none;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 100;
+
+}
+
+
+
+
+@media (max-width:500px) {
+
+.grid-wrapper{
+  flex-flow: column;
+  height:95vh;
+  width:70%;
+}
+
+
+.subscribe, .whyus  {
+  width: 100%;
+height:33%;
+}
+}
+
+
+
+
+
+}
